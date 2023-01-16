@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Monserrat,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    display:flex;
+}
+
+li {
+    font-family: Montserrat;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: .8rem;
+    width: 100%;
+    
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    
+}
+
+.bar {
+    display: flex;
+    justify-content:center;
+   
+}
+
+.addBtn {
+    padding: 20px;
+    background-color: #1c74e7;
+    border-radius: 20px;
+    border: 0;
+    color: #FFFFFF;
+    
+}
+
+.addDetails {
+    border: 1px solid #BDBDBD;
+    border-radius: 12px;
+    width: 300px;
+    height: 56px;
+    margin-right: 10%;
+    
+}
